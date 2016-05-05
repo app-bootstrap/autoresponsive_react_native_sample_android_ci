@@ -1,0 +1,38 @@
+{
+  "name": "autoresponsive_react_native_sample_android_ci",
+  "version": "0.1.0",
+  "description": "autoresponsive_react_native_sample_android_ci",
+  "keywords": [
+    "autoresponsive_react_native_sample_android_ci"
+  ],
+  "bin": {
+    "autoresponsive_react_native_sample_android_ci": "./bin/autoresponsive_react_native_sample_android_ci"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/autoresponsive_react_native_sample_android_ci.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoresponsive_react_native_sample": "^1.0.0",
+    "co-mocha": "*",
+    "istanbul": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "pre-commit": "1.1.1",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "make test",
+    "jshint": "make jshint"
+  },
+  "pre-commit": [
+    "jshint"
+  ],
+  "homepage": "https://github.com/xudafeng/autoresponsive_react_native_sample_android_ci",
+  "author": "xudafeng",
+  "email": "xudafeng@126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}
