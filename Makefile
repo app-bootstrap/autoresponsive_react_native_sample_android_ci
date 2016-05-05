@@ -5,7 +5,7 @@ all: test
 install:
 	@npm install
 test: install
-	cd ./node_modules/autoresponsive_react_native_sample_android_ci && make test-android
+	cd ./node_modules/autoresponsive_react_native_sample && make test-android
 jshint:
 	@${npm_bin}/jshint .
 .PHONY: test
