@@ -10,8 +10,10 @@ android:
   components:
     - build-tools-23.0.2
     - android-23
-    - extra-android-m2repository
     - extra-android-support
+    - extra-google-google_play_services
+    - extra-android-m2repository
+    - extra-google-m2repository
 before_install:
   - export CHROME_BIN=chromium-browser
   - export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
